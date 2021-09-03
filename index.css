@@ -1,0 +1,151 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.continer{
+    background-color:rgb(231, 246, 250);
+    background-image: url(./images/bg-hero-desktop.svg);
+    width: 100%;
+    height: 666px;
+}
+
+
+.el-zouz{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin: 24px 49px;
+}
+.logo img{
+    width: 141px;
+    height: 22px;
+}
+.bottona a h3{
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding: 7px 0;
+}
+.bottona a{
+    text-decoration: none;
+}
+.bottona{
+    border: solid 2px white;
+    border-radius: 29px;
+    width: 143px;
+    height: 37px;
+    margin: 30px 60px;
+    background-color: white;
+    box-shadow: 1px 3px 18px -9px;
+}
+.head-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.image img{
+    width: 46%;
+    height: 64%;
+    position: absolute;
+    right: 64px;
+    top: 119px;
+}
+.head{
+    margin: 87px 85px;
+
+}
+.bottona-elouta{
+    border: solid 2px rgb(255, 126, 206);
+    border-radius: 29px;
+    width: 245px;
+    height: 37px;
+    margin: 30px 60px;
+    background-color: rgb(255, 126, 206);
+    box-shadow: 1px 3px 18px -9px;
+}
+.bottona-elouta a{
+    text-decoration: none;
+}
+.bottona-elouta a h3{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 9px 0;
+}
+.pi{
+    margin-top: 25px;
+}
+.together ,.flowing ,.users{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.taswira img ,.taswira3 img {
+    width: 455px;
+    height: 352px;
+    margin: 153px 127px;
+}
+.ktiba ,.ktiba3{
+    margin-left: 282px;
+}
+.ktiba h2{
+    margin-bottom: 20px;
+}
+.taswira2 img{
+    width: 455px;
+    height: 352px;
+    margin: 60px 279px;
+}
+.ktiba2 {
+    margin-right: 127px;
+}
+.flowing ,.users{
+    margin-top: -84px;
+}
+.ktiba2 h2 ,.ktiba3 h2{
+    margin-bottom: 20px;
+}
+.e5er-haja{
+    background-color: rgb(0, 68, 84);
+    width: 100%  ;
+    height: 367px;
+    margin-top: 226px;
+}
+.the-end{
+    position: absolute;
+    margin: -454px 23%;
+    background-color: wheat;
+    height: 165px;
+    width: 763px;
+    border-radius: 14px;
+}
+.the-end h1{
+    text-align: center;
+}
+.bottona3{
+    text-align: center;
+    margin-top: 20px;
+    border: solid 2px rgb(255, 126, 206);
+    border-radius: 40px;
+    width: 343px;
+    height: 49px;
+    margin: 30px 60px;
+    background-color: rgb(255, 126, 206);
+    box-shadow: 1px 3px 18px -9px;
+    margin-left: 210px;
+}
+.bottona3 a{
+    text-decoration: none;
+    color: white;
+
+}
+.bottona3 h2{
+    padding-top: 13px;
+    font-size: 17px;
+}
+
+
