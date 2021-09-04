@@ -1,24 +1,35 @@
+        /* general */
 *{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-
 }
-.continer{
+
+section {
+    margin: 150px 0px 148px 0px;
+}
+
+section .container {
+    box-shadow: 0px 0px 5px rgb(197, 197, 197), 0px 0px 13px rgb(200, 200, 200);
+    border-radius: 19px;
+}
+
+        /* heder */
+header{
     background-color:rgb(231, 246, 250);
-    background-image: url(./images/bg-hero-desktop.svg);
-    width: 100%;
-    height: 666px;
+    background-image: url(../images/bg-hero-desktop.svg);
+    min-height: 473px;
+    padding-bottom: 30px;
 }
-
 
 .el-zouz{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .logo{
-    margin: 24px 49px;
+    /* margin: 24px 49px; */
 }
 .logo img{
     width: 141px;
@@ -43,21 +54,14 @@
     box-shadow: 1px 3px 18px -9px;
 }
 .head-image{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    margin-top: 10px;
 }
-.image img{
-    width: 46%;
-    height: 64%;
-    position: absolute;
-    right: 64px;
-    top: 119px;
-}
-.head{
-    margin: 87px 85px;
 
+.image img{
+    width: 100%;
+    height: 100%;
 }
+
 .bottona-elouta{
     border: solid 2px rgb(255, 126, 206);
     border-radius: 29px;
@@ -67,45 +71,50 @@
     background-color: rgb(255, 126, 206);
     box-shadow: 1px 3px 18px -9px;
 }
+
 .bottona-elouta a{
     text-decoration: none;
 }
+
 .bottona-elouta a h3{
     color: white;
     text-align: center;
     font-size: 14px;
     padding: 9px 0;
 }
+
 .pi{
     margin-top: 25px;
 }
+
 .together ,.flowing ,.users{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .taswira img ,.taswira3 img {
     width: 455px;
-    height: 352px;
-    margin: 153px 127px;
 }
-.ktiba ,.ktiba3{
-    margin-left: 282px;
+
+.ktiba , .ktiba2 , .ktiba3 {
+    display: flex;
+    align-items: center;
 }
+
 .ktiba h2{
     margin-bottom: 20px;
 }
+
 .taswira2 img{
-    width: 455px;
-    height: 352px;
-    margin: 60px 279px;
+    width: 100%;
+    height: 100%;
 }
-.ktiba2 {
-    margin-right: 127px;
-}
+
 .flowing ,.users{
     margin-top: -84px;
 }
+
 .ktiba2 h2 ,.ktiba3 h2{
     margin-bottom: 20px;
 }
